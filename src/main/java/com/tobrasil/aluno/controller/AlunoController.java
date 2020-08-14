@@ -68,7 +68,7 @@ public class AlunoController {
 	}
 
 	@PutMapping("/editar/{id}")
-	@ApiOperation(value="Atualiza produtos")
+	@ApiOperation(value="Atualiza alunos")
 	public Aluno update(@RequestBody Aluno aluno) {
 		return repository.save(aluno);
 	}
